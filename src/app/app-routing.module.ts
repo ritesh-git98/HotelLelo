@@ -9,6 +9,7 @@ import { MyBookingComponent } from './components/my-booking/my-booking.component
 import { ProfileComponent } from './components/profile/profile.component';
 import { AddMoneyComponent } from './components/add-money/add-money.component';
 import { HomeComponent } from './components/home/home.component';
+import { RoomAvailabeComponent } from './components/room-availabe/room-availabe.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -16,6 +17,7 @@ const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'about', component: AboutComponent },
   { path: 'book', component: BookingComponent },
+  { path: 'availableRooms', component: RoomAvailabeComponent },
   { path: 'addMoney', component: AddMoneyComponent },
   { path: 'profile', component: ProfileComponent },
   { path: 'myBooking', component: MyBookingComponent },
@@ -27,4 +29,4 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
-export const routingComponents = [HomeComponent,RegisterComponent,LoginComponent, AboutComponent,BookingComponent,AddMoneyComponent,MyBookingComponent,ProfileComponent,CheckoutComponent]
+export const routingComponents = [HomeComponent,RegisterComponent,LoginComponent, AboutComponent,BookingComponent,AddMoneyComponent,MyBookingComponent,ProfileComponent,CheckoutComponent, RoomAvailabeComponent]

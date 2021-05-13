@@ -12,6 +12,7 @@ import { BookingComponent } from './components/booking/booking.component';
 import { ProfileComponent } from './components/profile/profile.component';
 import { AddMoneyComponent } from './components/add-money/add-money.component';
 import { HomeComponent } from './components/home/home.component';
+import { RoomAvailabeComponent } from './components/room-availabe/room-availabe.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { HomeComponent } from './components/home/home.component';
     BookingComponent,
     ProfileComponent,
     AddMoneyComponent,
-    HomeComponent
+    HomeComponent,
+    RoomAvailabeComponent
   ],
   imports: [
     BrowserModule,
